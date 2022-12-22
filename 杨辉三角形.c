@@ -18,7 +18,7 @@ long long combinatorial_number(long long n, long long m) // ×éºÏÊý
 int main()
 {
     long long n, i, j;
-    scanf_s("%d", &n);
+    scanf("%d", &n);
     for (i = 0; i < n; i++)
     {
         for (j = 0; j <= i; j++)
