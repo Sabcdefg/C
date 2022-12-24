@@ -10,7 +10,17 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I",//-I 命令表示链接文件路径，后面添加你要include的文件夹就行
+                "D:\\MSvscodeprojects\\MyLibsAndSdk\\npcap_sdk_1_13\\Include",
+                "-L",
+                "D:\\MSvscodeprojects\\MyLibsAndSdk\\npcap_sdk_1_13\\Lib\\x64",
+                "-l",
+                "wpcap",
+                "-l",
+                "Packet",
+ 
+                "-std=c++17",
             ],
             "options": {
                 "cwd": "${fileDirname}"
