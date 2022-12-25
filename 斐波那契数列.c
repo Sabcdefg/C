@@ -1,5 +1,5 @@
 #include <stdio.h>
-int Fibonacci(int n)
+long long Fibonacci(long long n)
 {
     if ((n == 1) || (n == 2))
         return 1;
@@ -8,8 +8,8 @@ int Fibonacci(int n)
 }
 int main()
 {
-    int n;
-    scanf_s("%d", &n);
-    printf("%d", Fibonacci(n) % 10007);
+    long long n;
+    scanf("%lld", &n);
+    printf("%lld", Fibonacci(n) % 10007);
     return 0;
 }
