@@ -1,5 +1,5 @@
 #include <stdio.h>
-void positive_sequence_print(int n) // 从第1个字母开始逆序输出，直至第n个
+void positive_sequence_print(int n) // 从第1个字母开始顺序输出，直至第n个
 {
     int i;
     for (i = 0; i < n; i++)
