@@ -7,7 +7,7 @@ long long Fibonacci(long long n)
         return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 int main()
-{
+{ 
     long long n;
     scanf("%lld", &n);
     printf("%lld", Fibonacci(n) % 10007);
